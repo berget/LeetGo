@@ -1,0 +1,69 @@
+# .gitignore for a Go project with multiple subdirectories
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary and coverage
+*.test
+coverage.out
+coverage/
+
+# Build output directories and artifacts
+/bin/
+/build/
+/out/
+/dist/
+/pkg/
+
+# Dependency/vendor directory (uncomment if you keep vendor in repo)
+vendor/
+
+# Go workspace (if used)
+go.work
+
+# Generated files and directories
+gen/
+generated/
+*.gen.go
+*.pb.go
+*.swagger.json
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+
+# Swap/temp
+*~
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.test
+
+# Logs and temp folders
+*.log
+tmp/
+temp/
+
+# Node (in case frontend assets exist)
+node_modules/
+
+# Misc
+Thumbs.db
+
+# Ensure Go module files are tracked
+!go.mod
+!go.sum
